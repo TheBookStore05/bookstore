@@ -1,12 +1,16 @@
 * {
-  padding: 1rem;
+  padding: 0;
+}
+
+nav {
+  display: flex;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 20%;
   background-color: #5e3a4d;
   position: fixed;
   height: 100%;
@@ -14,11 +18,17 @@ nav ul {
   color: aliceblue;
 }
 
+nav li {
+  align-content: center;
+  align-items: center;
+}
+
 nav ul li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  align-items: center;
 }
 
 nav ul li a.active {
@@ -29,4 +39,10 @@ nav ul li a.active {
 nav ul li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+div {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 100%;
 }
