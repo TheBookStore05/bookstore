@@ -72,7 +72,8 @@ div {
   margin-top: 10%;
 }
 
-.bestseller-book {
+.special-section {
+  display: inline-flex;
   position: relative;
   /* display: inline-flex; */
   flex: auto;
@@ -80,6 +81,14 @@ div {
   margin-top: 10%;
 }
 
-.special-section {
-  display: flex;
+.bestseller-book img {
+  max-width: 120%;
+  height: auto;
+  position: relative;
+}
+
+.featured-book img {
+  max-width: 120%;
+  height: auto;
+  position: relative;
 }
