@@ -56,15 +56,29 @@ div {
 }
 
 .main-title {
+  display: flex;
   text-align: center;
   border: 5px solid black;
   color: #5e3a4d;
   position: relative;
   width: 25%;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .featured-book {
+  display: inline-flex;
+  flex-flow: row wrap;
+  position: relative;
+  /* display: inline-flex; */
+  flex: auto;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.bestseller-book {
+  display: inline-flex;
+  flex-flow: row wrap;
   position: relative;
   /* display: inline-flex; */
   flex: auto;
@@ -74,7 +88,7 @@ div {
 
 .special-section {
   display: inline-flex;
-  position: relative;
+  /* position: relative;
   /* display: inline-flex; */
   flex: auto;
   margin-right: 20%;
@@ -82,13 +96,13 @@ div {
 }
 
 .bestseller-book img {
-  max-width: 120%;
+  max-width: 80%;
   height: auto;
   position: relative;
 }
 
 .featured-book img {
-  max-width: 120%;
+  max-width: 80%;
   height: auto;
   position: relative;
 }
